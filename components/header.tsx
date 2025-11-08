@@ -14,7 +14,7 @@ export default function Header() {
   ];
 
   return (
-    <header className="border-b bg-neutral-950 text-white shadow-sm">
+    <header key="header" className="border-b bg-neutral-950 text-white shadow-sm">
       <div className="max-w-5xl mx-auto flex items-center justify-between py-4 px-6">
         <h1 className="text-xl font-bold ">Colby Foster</h1>
 
@@ -24,6 +24,7 @@ export default function Header() {
 
             return (
               <Link
+                key={`nav-item-${label}`}
                 href={href}
                 className="relative inline-block px-3 py-1 group"
                 aria-current={isActive ? 'page' : undefined}
