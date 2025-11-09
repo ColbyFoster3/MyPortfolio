@@ -19,7 +19,8 @@ export default function Header() {
           <a href="/" className="hover:text-blue-600 transition-colors inline-block">
             <h1 className="text-xl font-semibold tracking-tight">Colby Foster</h1>
           </a>
-          <div className="flex gap-1 opacity-80 hover:opacity-100 transition">
+          <div className="flex gap-1 opacity-80 text-white/90 hover:opacity-100 transition">
+            {/* TODO: make these into components */}
             <a
               className="hover:text-blue-600 transition-colors"
               target="_blank"
@@ -42,6 +43,7 @@ export default function Header() {
         
 
         <nav className="flex gap-6 text-sm font-medium" aria-label="Main Navigation">
+          {/* TODO: make these into components */}
           {navItems.map(({ href, label }) => {
             const isActive = pathname === href || pathname.startsWith(href + '/');
 
