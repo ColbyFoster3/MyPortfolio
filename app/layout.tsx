@@ -33,7 +33,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
       </head>
       <body className="font-sans bg-[var(--background)] text-[var(--foreground)]">
         <Header />
-          <main className="p-6 max-w-4xl mx-auto">{children}</main>
+        <main className="p-6 max-w-4xl mx-auto">{children}</main>
         <Footer />
       </body>
     </html>
