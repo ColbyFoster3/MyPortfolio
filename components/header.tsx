@@ -13,11 +13,13 @@ export default function Header() {
   ];
 
   return (
-    <header key="header" className="sticky top-0 left-0 z-50 border-b bg-neutral-950 text-white shadow-sm">
+    <header key="header" className="sticky top-0 left-0 z-50 backdrop-blur-md bg-neutral-950/85 border-b bg-neutral-950 text-white shadow-sm">
       <div className="max-w-5xl mx-auto flex items-center justify-between py-4 px-6">
-        <div className="flex flex-col items-start justify-start">
-          <h1 className="text-xl font-bold">Colby Foster</h1>
-          <div className="flex gap-2 justify-start"> 
+        <div className="flex items-center gap-4">
+          <a href="/" className="hover:text-blue-600 transition-colors inline-block">
+            <h1 className="text-xl font-semibold tracking-tight">Colby Foster</h1>
+          </a>
+          <div className="flex gap-1 opacity-80 hover:opacity-100 transition">
             <a
               className="hover:text-blue-600 transition-colors"
               target="_blank"
@@ -56,7 +58,7 @@ export default function Header() {
                     absolute top-1/2 left-1/2
                     -translate-x-1/2 -translate-y-1/2
                     rounded-full
-                    bg-neutral-800
+                    bg-neutral-900
                     w-20 h-10
                     pointer-events-none
                     transition-opacity duration-300
