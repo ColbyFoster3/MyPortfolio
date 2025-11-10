@@ -18,14 +18,14 @@ export default function ExperienceCard({ role, description, company, technologie
       target="_blank"
       rel="noopener noreferrer"
     >
-        <div className="rounded-2xl border p-6 shadow-sm bg-white">
+        <div className="rounded-2xl border p-6 shadow-sm hover:shadow-md bg-white">
             <div className="flex items-center justify-between mb-1">
                 <h4>{date}</h4>
                 <span className="icon transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1">
                     <ArrowUpRight />
                 </span>
             </div>
-             <h3 className="text-xl font-semibold mb-2 text-gray-900">{role}</h3>
+            <h3 className="text-xl font-semibold mb-2 text-gray-900">{role}</h3>
             <p className="text-gray-700 mb-3">{company}</p>
             <p className="text-gray-700 mb-3">{description}</p>
             <ul className="flex flex-wrap gap-2 text-sm mb-4">

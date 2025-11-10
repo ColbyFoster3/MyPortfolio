@@ -3,12 +3,12 @@ import { ArrowUpRight } from 'lucide-react';
 type Project = {
   title: string;
   description: string;
-  company?: string;
+  year?: string;
   technologies: string[];
   project_link: string;
 };
 
-export default function ProjectCard({ title, description, company, technologies, project_link }: Project) {
+export default function ProjectCard({ title, description, year, technologies, project_link }: Project) {
   return (
     <a
       href={project_link}
@@ -18,12 +18,13 @@ export default function ProjectCard({ title, description, company, technologies,
     >
       <div className="rounded-2xl border p-6 shadow-sm hover:shadow-md transition duration-300 bg-white">
         <div className="flex items-center justify-between mb-1">
-          <h3 className="text-xl font-semibold mb-2 text-gray-900">{title}</h3>
+          
+          <h4>{year}</h4>
           <span className="icon transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1">
-            <ArrowUpRight />
+              <ArrowUpRight />
           </span>
         </div>
-        <p className="text-gray-700 mb-3">{company}</p>
+        <h3 className="text-xl font-semibold mb-2 text-gray-900">{title}</h3>
         <p className="text-gray-700 mb-3">{description}</p>
         <ul className="flex flex-wrap gap-2 text-sm mb-4">
           {technologies.map((technology) => (

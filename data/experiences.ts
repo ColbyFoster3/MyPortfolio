@@ -21,7 +21,7 @@ export const experiences = [
     date: "AUG - OCT 2024",
     description: "Provided execellent customer service while processing transcations and restocking store inventory. Ensured customer satisfaction in a multithreaded environment.",
     technologies: ["Communication", "Conflict Resolution", "Interpersonal Skills", "Time Management"],
-    company_link: "https://www.websolutions.ca/"
+    company_link: "https://www.shoppersdrugmart.ca/"
   },
   {
     role: "Associate Software Engineer Co-op",

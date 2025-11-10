@@ -15,7 +15,7 @@ export default function Header() {
   return (
     <header key="header" className="sticky top-0 left-0 z-50 backdrop-blur-md bg-neutral-950/85 border-b bg-neutral-950 text-white shadow-sm">
       <div className="max-w-5xl mx-auto flex items-center justify-between py-4 px-6">
-        <div className="flex items-center gap-4">
+        <div className="flex flex-col md:flex-row items-start md:items-center  gap-4">
           <a href="/" className="hover:text-blue-600 transition-colors inline-block">
             <h1 className="text-xl font-semibold tracking-tight">Colby Foster</h1>
           </a>
