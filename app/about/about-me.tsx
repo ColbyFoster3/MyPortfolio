@@ -9,8 +9,8 @@ export default function AboutMe(){
                 always surfaces new challenges for me to tackle.
             </p>
             <p>
-                I have been lucky enough to work in a variety of settings including construction, retail, and technology. My roles in client facing positions has empowered
-                me to be client driven first over everything. I bring this mindset with me everyday to ensure we are doing the correct work to provide tangible value to clients.
+                I have had the opportunity to work in diverse environments ranging from retail to technology. My client-facing roles shaped a strong, 
+                client driven approach to problem-solving. I carry that mindset into my daily workflows, ensuring the work I do is intentional and creates real value.
             </p>
             <p>
                 Outside of work, you can find me spending time with my fiancée and two dogs, working on our property, working out, and jamming to all sorts of music!
